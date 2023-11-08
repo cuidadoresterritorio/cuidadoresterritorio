@@ -7,12 +7,15 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 3px 10px;
+
 }
 
+
 nav ul {
+
     list-style-type: none;
-    padding: 0;
+    padding-left: 5px;
 }
 
 nav ul li {
@@ -23,6 +26,10 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+}
+
+.main-nav__item a:hover {
+    color:palegoldenrod;
 }
 
 section {
@@ -37,4 +44,14 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand img{
+    width: 75px;
 }
