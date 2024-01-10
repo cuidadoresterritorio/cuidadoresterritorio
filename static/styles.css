@@ -94,3 +94,10 @@ p {
     font-style: oblique;
     font-size: x-small;
 }
+
+.footer-text {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 4px;
+    font-size:smaller;
+}
