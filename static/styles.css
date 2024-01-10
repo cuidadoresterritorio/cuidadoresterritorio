@@ -60,7 +60,7 @@ nav ul li a {
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: palegoldenrod}
+  .dropdown-content a:hover {background-color: rgb(50, 49, 41)}
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
