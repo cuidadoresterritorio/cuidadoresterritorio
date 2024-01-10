@@ -74,8 +74,15 @@ footer {
 }
 
 .main-image img{
-    width: 15%;
-    height: auto;
+    width: 30%;
+    height: auto;    
+    display: block; /* Eliminar el espacio adicional debajo de la imagen */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+
+}
+
+.image-caption {
+    padding-top: 5px;
 }
 
 p {
