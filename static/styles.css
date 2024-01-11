@@ -130,12 +130,17 @@ footer {
 }
 
 .main-image img{
-    /*width: 29%;*/
-    max-width: 30%;
+    width: 29%;
     height: auto;    
     display: block; /* Eliminar el espacio adicional debajo de la imagen */
     margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
 
+.secondary-img img{
+    width: 15%;
+    height: auto;    
+    display: block; /* Eliminar el espacio adicional debajo de la imagen */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
 }
 
 .image-caption {
@@ -159,4 +164,5 @@ p {
     margin-bottom: 4px;
     font-size:smaller;
 }
+
 
