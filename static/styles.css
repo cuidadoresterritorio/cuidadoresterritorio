@@ -116,6 +116,10 @@ footer {
     font-size: small;
 }
 
+.font-large {
+    font-size: large;
+}
+
 .font-oblique {
     font-style: oblique;
 }
@@ -126,7 +130,7 @@ footer {
 }
 
 .main-image img{
-    width: 30%;
+    width: 29%;
     height: auto;    
     display: block; /* Eliminar el espacio adicional debajo de la imagen */
     margin: 0 auto; /* Centrar la imagen horizontalmente */
@@ -141,10 +145,11 @@ p {
     text-align: justify;
 }
 
-.main-image figcaption {
-    text-transform: uppercase;
+.main-image figcaption:hover {
+    /*text-transform: uppercase;*/
     font-style: oblique;
-    font-size: x-small;
+    font-size:medium;
+    color:palegoldenrod;
 }
 
 .footer-text {
