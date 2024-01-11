@@ -130,7 +130,8 @@ footer {
 }
 
 .main-image img{
-    width: 29%;
+    /*width: 29%;*/
+    max-width: 30%;
     height: auto;    
     display: block; /* Eliminar el espacio adicional debajo de la imagen */
     margin: 0 auto; /* Centrar la imagen horizontalmente */
