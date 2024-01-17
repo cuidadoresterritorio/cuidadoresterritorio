@@ -116,12 +116,20 @@ footer {
     font-size: small;
 }
 
+.font-medium {
+    font-size: medium;
+}
+
 .font-large {
     font-size: large;
 }
 
 .font-oblique {
     font-style: oblique;
+}
+
+.padding-medium {
+    padding: 20px;
 }
 
 .main-image {
